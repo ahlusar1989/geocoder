@@ -40,16 +40,16 @@
       </nav>
       <section>
         <h1>
-<a id="geocoder--" class="anchor" href="#geocoder--" aria-hidden="true"><span class="octicon octicon-link"></span></a>Geocoder <a href="http://badge.fury.io/py/geocoder"><img src="https://badge.fury.io/py/geocoder.png" alt="badge"></a> <a href="https://travis-ci.org/DenisCarriere/geocoder"><img src="https://travis-ci.org/DenisCarriere/geocoder.png?branch=master" alt="travis"></a>
-</h1>
+<a id="geocoder" class="anchor" href="#geocoder" aria-hidden="true"><span class="octicon octicon-link"></span></a>Geocoder</h1>
 
-<p>Geocoder is a MIT Licensed Geocoding library, written in Python, 
-simple and consistant.</p>
+<p><a href="http://badge.fury.io/py/geocoder"><img src="https://badge.fury.io/py/geocoder.png" alt="badge"></a> <a href="https://travis-ci.org/DenisCarriere/geocoder"><img src="https://travis-ci.org/DenisCarriere/geocoder.png?branch=master" alt="travis"></a></p>
 
-<p><img src="http://i.imgur.com/vUJKCGl.png" alt="providers"></p>
+<p>Geocoder is a geocoding library, written in python, simple and consistent.</p>
+
+<p><img src="http://i.imgur.com/vUJKCGl.png" alt=""></p>
 
 <p>Many online providers such as Google &amp; Bing have geocoding services,
-these providers do not include Python libraries and have different 
+these providers do not include Python libraries and have different
 JSON responses between each other.</p>
 
 <p>Consistant JSON responses from various providers.</p>
@@ -63,17 +63,6 @@ JSON responses between each other.</p>
 ...</pre></div>
 
 <h2>
-<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
-
-<ul>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/GeoJSON-Support">GeoJSON Support</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/OpenStreetMap-Support">OpenStreetMap Support</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Command-Line-Interface">Command Line Interface</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Confidence-Score">Confidence Score</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Well-Known-Text-Support">Well Known Text Support</a></li>
-</ul>
-
-<h2>
 <a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <p>To install Geocoder, simply:</p>
@@ -83,38 +72,86 @@ JSON responses between each other.</p>
 <h2>
 <a id="providers" class="anchor" href="#providers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Providers</h2>
 
+<table>
+<thead>
+<tr>
+<th align="left">Global</th>
+<th align="left">Country</th>
+<th align="left">Specialized</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Google</td>
+<td align="left">Yandex</td>
+<td align="left">GeoOttawa</td>
+</tr>
+<tr>
+<td align="left">Bing</td>
+<td align="left">Geocoder.ca</td>
+<td align="left">FreeGeoIP</td>
+</tr>
+<tr>
+<td align="left">OpenStreetMap</td>
+<td align="left">Baidu</td>
+<td align="left">MaxMind</td>
+</tr>
+<tr>
+<td align="left">HERE</td>
+<td align="left"></td>
+<td align="left">what3words</td>
+</tr>
+<tr>
+<td align="left">TomTom</td>
+<td align="left"></td>
+<td align="left">CanadaPost</td>
+</tr>
+<tr>
+<td align="left">MapQuest</td>
+<td align="left"></td>
+<td align="left">Geonames</td>
+</tr>
+<tr>
+<td align="left">OpenCage</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">Yahoo</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">ArcGIS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+
 <ul>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/ArcGIS">ArcGIS</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Bing">Bing</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/CanadaPost">CanadaPost</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/FreeGeoIP">FreeGeoIP</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Geocoder-ca">Geocoder.ca</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Geonames">Geonames</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Google">Google</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/HERE">HERE</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/MapQuest">MapQuest</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/MaxMind">MaxMind</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/OpenCage">OpenCage</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/OpenStreetMap">OpenStreetMap</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/GeoOttawa">GeoOttawa</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/TomTom">TomTom</a></li>
-<li><a href="https://github.com/DenisCarriere/geocoder/wiki/Yahoo">Yahoo</a></li>
+<li>Formats (JSON, GeoJSON, OSM, WKT)</li>
+<li>Command Line Interface</li>
+<li>Confidence Score</li>
 </ul>
 
 <h2>
 <a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
 
-<p>Documentation is available at <a href="http://deniscarriere.github.io/geocoder">http://deniscarriere.github.io/geocoder</a></p>
+<p><a href="https://geocoder.readthedocs.org/">https://geocoder.readthedocs.org/</a></p>
 
 <h2>
 <a id="twitter" class="anchor" href="#twitter" aria-hidden="true"><span class="octicon octicon-link"></span></a>Twitter</h2>
 
-<p>Speak up on Twitter @<a href="https://twitter.com/DenisCarriere">DenisCarriere</a> and tell me how you use this Python Geocoder. New updates will be pushed to Twitter Hashtags <a href="https://twitter.com/search?q=%23python">#python</a>.</p>
+<p>Speak up on Twitter <a href="https://twitter.com/DenisCarriere">DenisCarriere</a> and tell me how you use this Python Geocoder. New updates will be pushed to Twitter Hashtags <a href="https://twitter.com/search?q=%23python">python</a>.</p>
 
 <h2>
 <a id="topic-not-available" class="anchor" href="#topic-not-available" aria-hidden="true"><span class="octicon octicon-link"></span></a>Topic not available?</h2>
 
-<p>If you cannot find a topic you are looking for, please feel free to ask me @<a href="https://twitter.com/DenisCarriere">DenisCarriere</a> or post them on the <a href="https://github.com/DenisCarriere/geocoder/issues">Github Issues Page</a>.</p>
+<p>If you cannot find a topic you are looking for, please feel free to ask me <a href="https://twitter.com/DenisCarriere">DenisCarriere</a> or post them on the <a href="https://github.com/DenisCarriere/geocoder/issues">Github Issues Page</a>.</p>
 
 <h2>
 <a id="feedback" class="anchor" href="#feedback" aria-hidden="true"><span class="octicon octicon-link"></span></a>Feedback</h2>
@@ -124,19 +161,30 @@ JSON responses between each other.</p>
 <h2>
 <a id="thanks-to" class="anchor" href="#thanks-to" aria-hidden="true"><span class="octicon octicon-link"></span></a>Thanks to</h2>
 
-<p>A big thanks to all the people that help contribute: </p>
+<p>A big thanks to all the people that help contribute:</p>
 
 <ul>
-<li>@<a href="https://github.com/alexanderlukanin13">alexanderlukanin13</a>
+<li>
+<a href="https://github.com/max-arnold">Max Arnold</a> - Submitted Github Issue</li>
+<li>
+<a href="https://twitter.com/zxiiro">Thanh Ha</a> - Cleaned up code</li>
+<li>
+<a href="https://twitter.com/myusuf3">Mahdi Yusuf</a> - Promoted by <a href="https://twitter.com/pycoders">Pycoders Weekly</a>
 </li>
-<li>@<a href="https://github.com/themiurgo">themiurgo</a>
-</li>
-<li>@<a href="https://github.com/flebel">flebel</a>
-</li>
-<li>@<a href="https://github.com/patrickyan">patrickyan</a>
-</li>
-<li>@<a href="https://github.com/lambda-conspiracy">esy</a>
-</li>
+<li>
+<a href="http://alexpilon.ca">Alex Pilon</a> - Cleaned up code</li>
+<li>
+<a href="https://twitter.com/philiphubs">Philip Hubertus</a> - Provided HERE improvements &amp; documentation</li>
+<li>
+<a href="https://twitter.com/themiurgo">Antonio Lima</a> - Improved code quality and introduced Rate Limits</li>
+<li>
+<a href="https://github.com/alexanderlukanin13">Alexander Lukanin</a> - Improved Python 3 compatibilty</li>
+<li>
+<a href="https://github.com/flebel">flebel</a> - Submitted Github Issues</li>
+<li>
+<a href="https://github.com/patrickyan">patrickyan</a> - Submitted Github Issues</li>
+<li>
+<a href="https://github.com/lambda-conspiracy">esy</a> - Submitted Github Issues</li>
 </ul>
       </section>
       <footer>
